@@ -36,7 +36,7 @@ jobs:
   build:
     strategy:
       matrix:
-        target: [StandaloneWindows64, WebGL, StandaloneLinux64]
+        target: [StandaloneWindows64, WebGL, StandaloneLinux64, Android]
     runs-on: ubuntu-latest
 
     steps:
